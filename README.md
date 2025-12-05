@@ -103,9 +103,9 @@ Orchestration Systems**.
             │
             ▼
     MCP Server (FastMCP)
-    │       ├── analyze_plant (Tool)
-    │       └── plant_info   (Tool)
-    │       └── play_audio   (Tool)
+            ├── analyze_plant (Tool)
+            └── plant_info   (Tool)
+            └── play_audio   (Tool)
             │
             ▼
     FastAPI Backend

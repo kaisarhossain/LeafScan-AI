@@ -1,0 +1,64 @@
+{
+  "diseases": [
+    {
+      "plant": "Potato",
+      "disease": "Early Blight",
+      "cure": "Use fungicides (chlorothalonil, mancozeb), rotate crops, remove infected leaves."
+    },
+    {
+      "plant": "Potato",
+      "disease": "Late Blight",
+      "cure": "Apply fungicides (copper-based, chlorothalonil), ensure proper air circulation, and avoid overhead watering."
+    },
+    {
+      "plant": "Pepper",
+      "disease": "Bacterial Spot",
+      "cure": "Use copper-based bactericides, remove infected leaves, plant disease-resistant varieties."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Target Spot",
+      "cure": "Apply fungicides (chlorothalonil, mancozeb), maintain proper spacing to improve airflow."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Mosaic Virus",
+      "cure": "Remove infected plants, control aphids, use virus-resistant varieties."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Yellow Leaf Curl Virus",
+      "cure": "Control whiteflies using insecticides, remove infected plants, plant virus-resistant varieties."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Bacterial Spot",
+      "cure": "Use copper-based bactericides, avoid overhead watering, plant resistant varieties."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Early Blight",
+      "cure": "Apply fungicides (chlorothalonil, mancozeb), rotate crops, and remove infected leaves."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Late Blight",
+      "cure": "Use copper-based fungicides, ensure proper spacing for airflow, and remove infected plants."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Leaf Mold",
+      "cure": "Improve ventilation, apply sulfur-based fungicides, remove infected leaves."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Septoria Leaf Spot",
+      "cure": "Use fungicides (chlorothalonil, mancozeb), remove infected leaves, ensure good air circulation."
+    },
+    {
+      "plant": "Tomato",
+      "disease": "Two Spotted Spider Mite",
+      "cure": "Spray with insecticidal soap or neem oil, increase humidity, introduce natural predators like ladybugs."
+    }
+  ]
+}

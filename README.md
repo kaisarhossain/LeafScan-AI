@@ -15,16 +15,16 @@
 This application is an **Agentic AI Plant Disease Diagnosis System**
 powered by:
 
--   **MCP Server (FastMCP)** exposing AI tools\
--   **FastAPI backend** hosting CNN models + LLM + Audio generator\
+-   **MCP Server (FastMCP)** exposing AI tools
+-   **FastAPI backend** hosting CNN models + LLM + Audio generator
 -   **Agent‑based tool calling**, enabling reasoning-driven workflows
 
 Users can:
 
--   Upload an image of **Potato, Tomato, or Pepper** leaves\
--   Automatically detect the plant disease using CNN models\
--   Generate detailed explanations using LLM\
--   Get spoken audio advice\
+-   Upload an image of **Potato, Tomato, or Pepper** leaves
+-   Automatically detect the plant disease using CNN models
+-   Generate detailed explanations using LLM
+-   Get spoken audio advice
 -   Retrieve plant-level details using a second agentic tool
 
 The Streamlit app interacts *only* with the **MCP Server**, which
@@ -37,37 +37,37 @@ scalable, modular, and easy to extend.
 
 ### 🌿 **Plant Disease Classification**
 
--   Upload an image\
--   Select plant type\
--   CNN model identifies the disease\
+-   Upload an image
+-   Select plant type
+-   CNN model identifies the disease
 -   Displays confidence score
 
 ### 🤖 **Language Agent: Disease Explanation & Cure**
 
 -   LLM generates:
-    -   Overview\
-    -   Symptoms\
-    -   Causes\
-    -   Recommended treatment\
+    -   Overview
+    -   Symptoms
+    -   Causes
+    -   Recommended treatment
     -   Prevention tips
 
 ### 🔊 **Audio Agent**
 
--   Converts diagnosis + cure into speech\
+-   Converts diagnosis + cure into speech
 -   Plays audio in‑app
 
 ### 📘 **Plant Information Tool**
 
 -   Provides:
-    -   Plant description\
-    -   Nutritional/usage details\
-    -   Cultivation brief\
+    -   Plant description
+    -   Nutritional usage details
+    -   Cultivation brief
 -   Triggered regardless of disease state
 
 ### ⚙️ **Agentic + MCP Architecture**
 
--   Streamlit → MCP Client\
--   MCP Client → MCP Server (Tools exposed via FastMCP)\
+-   Streamlit → MCP Client
+-   MCP Client → MCP Server (Tools exposed via FastMCP)
 -   MCP Server → FastAPI → ML Models + LLM + TTS
 
 ------------------------------------------------------------------------
